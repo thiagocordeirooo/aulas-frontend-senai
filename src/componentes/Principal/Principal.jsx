@@ -4,7 +4,9 @@ import './Principal.css';
 const Principal = () => {
   return (
     <main>
-      <BotaoCustomizado />
+      <BotaoCustomizado tipo='primario'>Salvar</BotaoCustomizado>
+      <BotaoCustomizado tipo='secundario'>Git</BotaoCustomizado>
+      <BotaoCustomizado>Cancelar</BotaoCustomizado>
     </main>
   );
 };
