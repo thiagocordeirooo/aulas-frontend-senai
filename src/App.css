@@ -6,5 +6,5 @@
     'rodape rodape';
 
   grid-template-rows: 64px 1fr 88px;
-  grid-template-columns: 288px 1fr;
+  grid-template-columns: 64px 1fr;
 }
